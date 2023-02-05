@@ -1,0 +1,244 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 4.5rem;
+}
+h2 {
+    font-weight: 500;
+    line-height: 4rem;
+    font-size: 3.3rem;
+}
+h3 {
+    font-weight: 1000;
+}
+p {
+    color: grey;
+    font-weight: 500;
+}
+
+#title {
+    background-color: rgba(17,41,77,255);
+    color: #ffff;
+    text-align: left;
+    padding-bottom: 0;
+}
+#features, #features2{
+    padding: 1% 15%;
+    padding-left: 3%;
+    position: relative;
+    text-align: left;
+    background-color: #ffff;
+}
+#testimonials {
+    padding: 0 10%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    text-align: left;
+    margin-top: 0;
+}
+#press {
+    padding-bottom: 7%;
+    text-align: left;
+}
+#footer {
+    padding: 50px 0 10px 0;
+}
+#down {
+    margin-right: 20rem;
+}
+#info {
+    text-align: left;
+}
+#features-start {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 15%;
+}
+#dl-about {
+    background-color: #e83a37;
+    padding-left:  3rem;
+    padding-right: 3rem;
+}
+#infopic1 {
+    margin-top: 0;
+}
+#infopic2 {
+    margin-left: 13%;
+}
+#work3 {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0;
+}
+#Reviews-pic {
+    width: 90%;
+    margin-left: 0;
+}
+#footer {
+    padding: 50px 0 10px 0;
+}
+.sub-heading {
+    color:#e83a37;
+}
+.pressinfo {
+    padding-left: 5.3rem;
+}
+.images {
+    padding-left: 5.3rem;
+}
+.press-button {
+    margin-top: 8.5rem;
+    margin-left: 30rem;
+}
+.feature-box {
+    padding: 5%;
+    margin-top: 0;
+}
+
+.feature-icon1 {
+    color: rgb(243, 60, 60);
+    margin-bottom: 1rem;
+}
+.feature-icon2 {
+    color: rgb(71, 165, 241);
+    margin-bottom: 1rem;
+}
+.feature-icon3 {
+    color: #d6d324;
+    margin-bottom: 1rem;
+}
+.feature-icon1:hover,
+.feature-icon2:hover,
+.feature-icon3:hover {
+    color: black;
+}
+
+.container-fluid {
+    padding: 1% 5%;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.dl-button {
+    margin: 5% 3% 5% 0;
+    padding-left:  2rem;
+    padding-right: 2rem;
+}
+
+.rotateiphone {
+    margin-top: 0;
+    margin-left: 10%;
+    width: 80%;
+}
+.infopic {
+    width: 70%;
+    margin: 10%;
+    margin-top: 15%;
+    margin-left: 25%;
+    align-items: center;
+}
+.textinfo {
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 10%;
+}
+.textinfo2 {
+    margin-top: 5%;
+    padding-left: 5.3rem;
+    padding-right: 10%;
+}
+@media (max-width: 992px){
+    .rotateiphone {
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: left;
+        padding-bottom: 0;
+    }
+    .press-button {
+        margin-top: 1%;
+        margin-left: 4.5em;
+    }
+    .pressinfo {
+        text-align: center;
+        padding-right: 10%;
+    }
+    #down {
+        margin-right: 0;
+    }
+    .textinfo {
+        margin-top: 5%;
+        padding-left: 3rem;
+    }
+    .textinfo2 {
+        margin-top: 10%;
+        padding-left: 3rem;
+    }
+    .images {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    #work1,#work2,#work3 {
+        width: 65%;
+    }
+    #Reviews-pic{
+        width: 0;
+    }
+}
+
+.test-img-1 {
+    border-radius: 100%;
+    width: 60px;
+    margin: 5%;
+}
+
+
+.comp-img {
+    width: 90%;
+    margin: 0 6% 3% 6%;
+    margin-left: 0;
+}
+.carousel-item {
+    padding: 2% 5%;
+}
+.dl2-button {
+    margin: 1% 1% 2% 0;
+}
+.footer-icons {
+    margin-right: 7px;
+}
+.carousel-control-next, .carousel-control-prev  {
+    filter: invert(100%);
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+}
