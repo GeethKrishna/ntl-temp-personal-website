@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+}
 body {
     font-family: 'Lato', sans-serif;
     text-align: center;
